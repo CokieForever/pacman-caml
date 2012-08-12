@@ -1,0 +1,10 @@
+{
+
+(none)
+Reprendre
+	RESUME
+Quitter
+	EXIT
+
+}
+

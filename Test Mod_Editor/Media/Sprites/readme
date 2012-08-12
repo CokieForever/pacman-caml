@@ -1,0 +1,15 @@
+La carte est représentée par un tableau (ou une matrice) d'entiers de n x n cases.
+Dans chaque case il peut y avoir trois chiffres : 0, 1 ou 2. 0 signifie qu'a cet endroit il n'y a rien de particulier, 1 signifie qu'il y a un mur, et 2 que l'endroit est un trou (voir à la fin).
+Le Pacman ne peut se déplacer que sur les cases portant le chiffre 0.
+
+Pour afficher la carte, il faut suivre la méthode suivante :
+	On prend chaque case (i,j).
+	On regarde le numéro : s'il vaut 0 ou 2, on affiche l'image void.bmp.
+	S'il vaut 1, on découpe l'image à afficher en quatre carrés identiques.
+		Affichons le carré supérieur gauche.
+		On regarde le chiffre X de la case (i-1,j-1), celui Y de la case (i-1,j) et celui Z de la case (i,j-1).
+		Le code XYZ nous donne directement quelle image afficher pour ce carré supérieur gauche (par exemple 102.bmp, 121.bmp...).
+		Pour les autres carrés (supérieur droit, inférieur gauche, inférieur droit), la méthode est la même à une rotation près.
+		On obtient ainsi l'image complète à afficher pour la case (i,j).
+
+Trou : On appelle trou toute case en dehors du tableau (par exemple la case (-1,-1)), ou vide (c'est-à-dire sans mur) et adjacente à un trou.

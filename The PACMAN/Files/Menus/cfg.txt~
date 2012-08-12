@@ -1,0 +1,34 @@
+{
+
+./Media/Images/bkg.png
+Nouveau jeu
+	NEW_GAME
+Charger une partie
+	LOAD_GAME
+Options
+{
+	./Media/Images/bkg.png
+	Audio
+		CONFIG_AUDIO
+	Video
+		CONFIG_VIDEO
+	Jeu
+	{
+		./Media/Images/bkg.png
+		Retour
+			BACK
+	}
+	Retour
+		BACK
+}
+Quitter
+{
+	./Media/Images/bkg.png
+	Oui
+		QUIT
+	Non
+		BACK
+}
+
+}
+

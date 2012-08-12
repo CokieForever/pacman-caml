@@ -1,0 +1,32 @@
+{
+
+./Media/Images/bkg.jpg
+Campagne
+	NEW_GAME
+Carte rapide
+	LOAD_GAME
+Editeur
+	BUILDER
+Options
+{
+	./Media/Images/bkg.jpg
+	Parametres
+		CONFIG
+	Scores
+		HIGH_SCORES
+	Credits
+		CREDITS
+	Retour
+		BACK
+}
+Quitter
+{
+	./Media/Images/bkg.jpg
+	Oui
+		QUIT
+	Non
+		BACK
+}
+
+}
+

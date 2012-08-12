@@ -1,0 +1,47 @@
+PACMAN
+Version 0.19
+05/01/2012
+
+
+Jeu réalisé par Shuo Song et Quoc-Nam Dessoulles, élèves ingénieurs en première année à Télécom Bretagne.
+
+Logiciel et codes sources sous les termes de la license Creative Commons BY-NC-SA. Termes complets disponibles à l'adresse http://creativecommons.org/licenses/by-nc-sa/2.0/fr/legalcode.
+
+
+
+Contenu des dossiers :
+
+Le jeu PacMan (déjà compilé) ainsi que son code source (langage CamL) et un makefile associé.
+Tous les modules nécessaires au jeu PacMan et leurs codes sources (langage CamL / langage C), accompagnés chacun d'un petit exécutable de test (déjà compilé) et d'un makefile spécifique.
+Tous les fichiers nécessaires au bon fonctionnement du jeu.
+
+Les codes sources sont en anglais et ne sont pas commentés.
+
+
+
+Comment jouer ?
+
+Ouvrez un terminal, placez-vous dans le dossier "The PACMAN".
+Ensuite, lancez simplement l'exécutable :
+
+	./pacman
+
+Cependant, le programme dépend de certaines librairies partagées. Si le programme vous fait remarquer qu'il lui en manque, essayez :
+
+	make install
+
+Cela installera certaines des dépendances du programme sur votre machine (nécessite les droits d'administrateur). Si cela suffit, tant mieux. Sinon, essayez de trouver les dépendances qu'il vous manque en fonction de ce que vous indique le programme (chez moi il ne manquait rien, donc c'est difficile de savoir exactement ce qu'il faudrait sur une autre machine, désolé du désagrément).
+Vous pouvez aussi le lancer simplement en double cliquant sur le fichier, mais les éventuels messages d'erreur n'apparaîtront alors pas.
+
+Si d'aventure vous aviez envie de compiler le projet, sachez qu'il vous faudra d'abord installer CamL light, la SDL et FMOD. Le programme et les libraires  sont disponibles sur le net. Pour recompiler entièrement le projet, placez-vous dans le dossier "The PACMAN" et entrez :
+
+	make clean all
+
+Le Makefile s'occupe alors de tout. L'opération peut prendre quelques secondes.
+
+
+
+Des questions ?
+
+Pour toute question, remarque, suggestion ou autre, vous pouvez utiliser le sujet créé sur le Site du Zéro à cet effet :
+http://www.siteduzero.com/forum-83-724893-p1-jeu-caml-light-c-pacman.html#r6988810

@@ -1,0 +1,34 @@
+{
+
+Images/abstract1.jpg
+Nouveau jeu
+	NEW_GAME
+Charger une partie
+	LOAD_GAME
+Options
+{
+	Images/abstract1.jpg
+	Audio
+		CONFIG_AUDIO
+	Video
+		CONFIG_VIDEO
+	Jeu
+	{
+		Images/abstract1.jpg
+		Retour
+			BACK
+	}
+	Retour
+		BACK
+}
+Quitter
+{
+	Images/abstract1.jpg
+	Oui
+		QUIT
+	Non
+		BACK
+}
+
+}
+
